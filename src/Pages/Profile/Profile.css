@@ -1,0 +1,24 @@
+/* Container for profile cards */
+.pod {
+    display: flex;
+    gap: 20px; /* Adjust the gap to a more reasonable size */
+    justify-content: center; /* Center cards horizontally */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin: 20px 0;
+}
+
+/* Optional: Additional styling for the text inside the profile cards */
+h3 {
+    font-size: 24px;
+    line-height: 1;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+#hit{
+    margin-left: 850px;
+}
